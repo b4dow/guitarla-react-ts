@@ -1,4 +1,3 @@
-import { useMemo } from "react";
 import { GuitarI } from "../../model/guitar.model";
 
 interface Props {
@@ -7,6 +6,8 @@ interface Props {
   increaseQuantity: (id: number) => void;
   decreaseQuantity: (id: number) => void;
   clearCart: () => void;
+  isEmpty: boolean;
+  cartTotal: number;
 }
 
 export const Header = ({
@@ -15,15 +16,9 @@ export const Header = ({
   increaseQuantity,
   decreaseQuantity,
   clearCart,
+  isEmpty,
+  cartTotal,
 }: Props) => {
-  // state derivado
-  const isEmpty = useMemo(() => cart.length === 0, [cart]);
-
-  const cartTotal = useMemo(
-    () => cart.reduce((total, item) => total + item.quantity! * item.price, 0),
-    [cart],
-  );
-
   return (
     <header className="py-5 header">
       <div className="container-xl">
