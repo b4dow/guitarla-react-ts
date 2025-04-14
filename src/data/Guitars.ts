@@ -1,6 +1,6 @@
 import { GuitarI } from "../model/guitar.model";
 
-export const Guitars: GuitarI[] = [
+export const Guitars: Array<GuitarI> = [
   {
     id: 1,
     name: "Lukather",

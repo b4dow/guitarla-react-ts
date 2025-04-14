@@ -1,10 +1,10 @@
-import { GuitarI } from "../../model/guitar.model";
+import { CartItem, GuitarI } from "../../model/guitar.model";
 
 interface Props {
-  cart: GuitarI[];
-  removeFromCart: (id: number) => void;
-  increaseQuantity: (id: number) => void;
-  decreaseQuantity: (id: number) => void;
+  cart: CartItem[];
+  removeFromCart: (id: GuitarI["id"]) => void;
+  increaseQuantity: (id: GuitarI["id"]) => void;
+  decreaseQuantity: (id: GuitarI["id"]) => void;
   clearCart: () => void;
   isEmpty: boolean;
   cartTotal: number;
