@@ -26,7 +26,7 @@ GuitarLA ofrece un catálogo de modelos de guitarra, un carrito de compras diná
 1. Clonar el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/guitarla-react-alpha.git
+   git clone https://github.com/b4dow/guitarla-react-alpha.git
    cd guitarla-react-ts
    ```
 

@@ -6,7 +6,7 @@ export const Guitars: Array<GuitarI> = [
     name: "Lukather",
     image: "guitarra_01",
     description:
-      "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+      "Guitarra inspirada en Steve Lukather, legendario guitarrista de Toto. Perfecta para solos melodiosos y rock clásico.",
     price: 299,
   },
   {
@@ -14,7 +14,7 @@ export const Guitars: Array<GuitarI> = [
     name: "SRV",
     image: "guitarra_02",
     description:
-      "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+      "Tributo a Stevie Ray Vaughan, con un tono potente y bluesy. Ideal para blues y rock texano con un sonido crudo y emotivo.",
     price: 349,
   },
   {
@@ -22,7 +22,7 @@ export const Guitars: Array<GuitarI> = [
     name: "Borland",
     image: "guitarra_03",
     description:
-      "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+      "Basada en el estilo de Wes Borland de Limp Bizkit. Diseñada para riffs pesados y sonidos experimentales de nu metal.",
     price: 329,
   },
   {
@@ -30,7 +30,7 @@ export const Guitars: Array<GuitarI> = [
     name: "VAI",
     image: "guitarra_04",
     description:
-      "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+      "Inspirada en Steve Vai, esta guitarra está hecha para la virtuosidad. Perfecta para técnicas avanzadas y solos progresivos.",
     price: 299,
   },
   {
@@ -38,7 +38,7 @@ export const Guitars: Array<GuitarI> = [
     name: "Thompson",
     image: "guitarra_05",
     description:
-      "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+      "Basada en Richard Thompson, ofrece versatilidad para folk rock y música tradicional con un toque moderno.",
     price: 399,
   },
   {
@@ -46,7 +46,7 @@ export const Guitars: Array<GuitarI> = [
     name: "White",
     image: "guitarra_06",
     description:
-      "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+      "Inspirada en Jack White, esta guitarra brinda un sonido crudo y vintage, perfecta para garage rock y blues alternativo.",
     price: 329,
   },
   {
@@ -54,7 +54,7 @@ export const Guitars: Array<GuitarI> = [
     name: "Cobain",
     image: "guitarra_07",
     description:
-      "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+      "Tributo a Kurt Cobain, diseñada para el sonido grunge. Ideal para riffs potentes y acordes distorsionados del rock alternativo.",
     price: 349,
   },
   {
@@ -62,7 +62,7 @@ export const Guitars: Array<GuitarI> = [
     name: "Dale",
     image: "guitarra_08",
     description:
-      "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+      "Inspirada en Dick Dale, el rey del surf rock. Perfecta para tremolo picking y el característico sonido wet reverb del surf.",
     price: 379,
   },
   {
@@ -70,7 +70,7 @@ export const Guitars: Array<GuitarI> = [
     name: "Krieger",
     image: "guitarra_09",
     description:
-      "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+      "Basada en Robby Krieger de The Doors. Versátil para rock psicodélico y blues con toques de flamenco.",
     price: 289,
   },
   {
@@ -78,7 +78,7 @@ export const Guitars: Array<GuitarI> = [
     name: "Campbell",
     image: "guitarra_10",
     description:
-      "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+      "Inspirada en Glen Campbell, ideal para country y folk. Ofrece un tono brillante y limpio perfecto para fingerpicking.",
     price: 349,
   },
   {
@@ -86,7 +86,7 @@ export const Guitars: Array<GuitarI> = [
     name: "Reed",
     image: "guitarra_11",
     description:
-      "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+      "Tributo a Lou Reed, diseñada para rock and roll clásico y punk. Perfecta para acordes potentes y riffs directos.",
     price: 399,
   },
   {
@@ -94,7 +94,7 @@ export const Guitars: Array<GuitarI> = [
     name: "Hazel",
     image: "guitarra_12",
     description:
-      "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+      "Inspirada en Eddie Hazel de Funkadelic, esta guitarra está hecha para funk y rock psicodélico con un tono sedoso y expresivo.",
     price: 379,
   },
 ];
