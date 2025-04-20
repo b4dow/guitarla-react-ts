@@ -1,11 +1,13 @@
+import { Dispatch } from "react";
 import { GuitarI } from "../../model/guitar.model";
+import { CartActions } from "../../reducers/cartReducer";
 
 interface Props {
   guitar: GuitarI;
-  addToCart: (guitar: GuitarI) => void;
+  dispatch: Dispatch<CartActions>;
 }
 
-export const Guitar = ({ guitar, addToCart }: Props) => {
+export const Guitar = ({ guitar, dispatch }: Props) => {
   const { name, image, description, price } = guitar;
 
   return (
@@ -22,7 +24,9 @@ export const Guitar = ({ guitar, addToCart }: Props) => {
         <p>{description} </p>
         <p className="fw-black text-primary fs-3">${price}</p>
         <button
-          onClick={() => addToCart(guitar)}
+          onClick={() =>
+            dispatch({ type: "add-to-cart", payload: { item: guitar } })
+          }
           type="button"
           className="btn btn-dark w-100"
         >
